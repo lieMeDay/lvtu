@@ -1,0 +1,122 @@
+
+
+.server_con{
+    width: 100%;
+    overflow: hidden;
+}
+.ser_tit_box{
+    width: 1120px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow:0px 9px 21px 0px rgba(127,127,127,0.24);
+    border-radius:20px;
+    overflow: hidden;
+    position: relative;
+    z-index: 100;
+}
+.ser_tit{
+    font-size: 36px;
+    text-align: center;
+    line-height: 70px;
+}
+.ser_con{
+    width: 960px;
+    margin: 20px auto;
+    /* height: 300px; */
+    overflow: hidden;
+    padding: 15px 0;
+}
+.ser_con>div{
+    width: 290px;
+    min-height: 325px;
+    float: left;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 9px 21px 0px rgba(127,127,127,0.24);
+    border-radius:5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.ser_con>div:hover{
+    transform: translateY(-10px);
+}
+.ser_con>div:nth-child(2){
+    margin: 0 43px;
+}
+.ser_con>div>div{
+    width: 180px;
+    height: 160px;
+    margin: 0 auto;
+}
+.ser_tit_o{
+    background: url('../images/ser_tit_o.png') no-repeat top center;
+    background-size: contain;
+}
+.ser_tit_t{
+    background: url('../images/ser_tit_t.png') no-repeat top center;
+    background-size: contain;
+}
+.ser_tit_th{
+    background: url('../images/ser_tit_th.png') no-repeat top center;
+    background-size: contain;
+}
+.ser_con>div>p{
+    width: 90%;
+    margin: 10px auto;
+    letter-spacing: 5px;
+}
+.bg_ser{
+    width: 100%;
+    height: 250px;
+    background: url('../images/ser_bg.png') no-repeat center center;
+    background-size: contain;
+    margin-top: -130px;
+}
+.ser_introduce{
+    width: 1120px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow:0px 9px 21px 0px rgba(127,127,127,0.24);
+    border-radius:20px;
+    overflow: hidden;
+    position: relative;
+    z-index: 100;
+}
+.intro_con{
+    width: 85%;
+    margin: 5% auto;
+    position: relative;
+}
+.intro_con>*{
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.in_tit{
+    color: #333333;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 40px;
+}
+.in_sm_tit{
+    color: #999999;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.in_con>span:nth-child(odd){
+    color: #0C6095;
+    display: block;
+    font-weight: 600;
+    line-height: 60px;
+}
+.in_con>span:nth-child(even){
+    color: #666666;
+    line-height: 24px;
+}
+.shu{
+    display: inline-block;
+    width: 4px;
+    height: 40px;
+    background-color: #684CC0;
+    position: absolute;
+    left: -10px;
+}

@@ -1,0 +1,136 @@
+.footer{
+    width: 100%;
+    /* height: 200px; */
+    background-color:#0C6095;
+    overflow: hidden;
+}
+.footer_con{
+    width: 1120px;
+    /* height: 70px; */
+    overflow: hidden;
+    margin: 25px auto;
+    /* background-color: pink; */
+}
+.foo_left{
+    /* width: 300px; */
+    float: left;
+    /* height: 200px; */
+    /* background-color: palegreen; */
+    /* text-align: center; */
+}
+.foo_right{
+    width: 860px;
+    /* width: calc(100% - 300px); */
+    /* height: 150px; */
+    float: left;
+    /* background-color: gold; */
+    position: relative;
+}
+.foo_right ul{
+width: 100%;
+height: 40px;
+overflow: hidden;
+}
+.foo_right ul li{
+    float: left;
+    width: 172px;
+    /* width: 224px; */
+    text-align: left;
+    line-height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    cursor: pointer;
+}
+.foo_con{
+    /* position: absolute; */
+    bottom: 10px;
+    text-align: center;
+    margin-top: 90px;
+}
+.foo_con>p{
+    color: #fff;
+    line-height:40px;
+    font-size: 16px;
+}
+.foo_con>p a{
+    color: #fff;
+}
+.foo_con>p a:hover{
+    /* color: blue; */
+    text-decoration: underline;
+}
+.foo_img{
+    width: 160px;
+    height: 120px;
+    /* margin: 0 auto; */
+    background: url('../images/foologo.png') no-repeat center center;
+    background-size: 60%;
+}
+.ewm{
+    width: 130px;
+    float: right;
+    overflow: hidden;
+}
+.ewm>img{
+width: 100%;
+transform: scale(0.8);
+}
+.ewm>p{
+    color: #fff;
+    text-align: center;
+}
+
+/* @media screen and (min-width:960px) and (max-width:1120px){
+    .footer_con{
+        width: 960px;
+        height: 150px;
+        overflow: hidden;
+        margin: 25px auto;
+    }
+    .foo_right{
+        width: 760px;
+        height: 150px;
+        float: right;
+        position: relative;
+    }
+    .foo_right ul li{
+        width: 152px;
+    }
+}
+@media screen and (max-width:960px){
+    .footer{
+        width: 100%;
+        background-color:#0C6095;
+        overflow: hidden;
+    }
+    .footer_con{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        margin: 25px auto;
+    }
+    .foo_left{
+        width: 100%;
+        text-align: center;
+    }
+    .foo_img{
+        margin: 0 auto;
+    }
+    .foo_right{
+        width: 100%;
+        height: 95px;
+        float: right;
+        position: relative;
+    }
+    .foo_right ul{
+        display: none;
+    }
+    .foo_con{
+        position: absolute;
+        bottom: 0;
+        float: left;
+        margin: 0 auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+} */

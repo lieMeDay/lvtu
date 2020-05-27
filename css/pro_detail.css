@@ -1,0 +1,136 @@
+.pro_con{
+    width: 1000px;
+    margin: 0 auto;
+}
+.pro_list{
+line-height: 150px;
+font-size: 20px;
+overflow: hidden;
+}
+.pro_list li{
+float: left;
+margin-right: 30px;
+cursor: pointer;
+}
+.pro_list li>span{
+padding: 8px;
+}
+.pro_list li>span:hover{
+    background-color: rgb(12, 96, 149);
+    color: #fff;
+    border-radius: 15px;
+}
+.pro_list li.act>span{
+    background-color: rgb(12, 96, 149);
+    color: #fff;
+    border-radius: 15px;
+}
+.pro_detail{
+    width: 100%;
+    margin: 0 auto 20px;
+    overflow: hidden;
+    display: none;
+}
+.pro_detail.act{
+    display: block;
+}
+.txt_o,.o_left,.o_right{
+    overflow: hidden;
+}
+.o_left{
+    width: 500px;
+    float: left;
+}
+.o_left span:nth-child(1){
+    color: rgb(12, 96, 149);;
+    float: left;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 700;
+    font-family: '宋体';
+    float: left;
+}
+.o_left span{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #666666;
+    line-height: 24px;
+}
+.xg{
+    margin-top: 35px;
+    display: inline-block;
+}
+.o_right{
+    width: 460px;
+    float: right;
+}
+.o_right img{
+    width: 100%;
+}
+.txt_t{
+    overflow: hidden;
+    position: relative;
+    background: url('../images/de_sh_th.png') no-repeat top right;
+    background-size: 50% 75%;
+    padding-bottom: 30px;
+}
+.txt_t>p:nth-child(1){
+    color: rgb(12, 96, 149);
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: 600;
+}
+.txt_t>p:nth-child(2){
+    font-size: 18px;
+    line-height: 30px;
+    color: #666666;
+    letter-spacing: 1px;
+    width: 500px;
+}
+.xh_pho{
+    overflow: hidden;
+}
+.xh_pho>h3{
+    text-align: center;
+    font-size: 28px;
+    color: rgba(196,0,0,1);
+}
+.xh_detail_pho{
+    overflow: hidden;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    /* height: 800px; */
+    width: 100%;
+    grid-gap: 20px;
+    margin: 20px auto 10px;
+}
+.xh_detail_pho>div{
+   text-align: center;
+   cursor: pointer;
+}
+.xh_detail_pho>div>img{
+    width: 100%;
+}
+.xh_nr{
+    background: url('../images/de_sh_th.png') no-repeat top right;
+    background-size: 55% 100%;
+}
+.fx_nr{
+    background: url('../images/fx_nr.png') no-repeat bottom right;
+    background-size: 50% 95%;
+}
+.zb_nr{
+    background: url('../images/zb_t.png') no-repeat top right;
+    background-size: 50% 75%;
+}
+.gr_nr{
+    background: url('../images/gr_s.png') no-repeat top right;
+    background-size: 40% 85%;
+}
+.zb_big{
+    margin: 20px auto;
+}
+.zb_big>img{
+    width: 100%;
+}

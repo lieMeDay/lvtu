@@ -1,0 +1,129 @@
+/* banner 轮播 */
+.banner {
+    /* width: 100%; */
+    width: 90%;
+    height: 360px;
+    margin: 0 auto;
+    /* background-color: palegoldenrod; */
+    position: relative;
+    /* top: 100px; */
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-container .swiper-slide>img {
+    width: 100%;
+    height: 100%;
+}
+
+.bTO {
+    position: absolute;
+    top: 120px;
+    /* right: -658px; */
+    right: 20px;
+    width: 658px;
+    height: 220px;
+    background: url("../images/bannerOnetxt.png") no-repeat center center;
+    background-size: 100%;
+    /* animation: bannOne 0.5s forwards; */
+}
+
+@keyframes bannOne {
+    from {
+        right: -658px;
+        opacity: 0;
+    }
+
+    to {
+        right: 0px;
+        opacity: 1;
+    }
+}
+.bTTB{
+    position: absolute;
+    top: 110px;
+    width: 430px;
+    left: 150px;
+    height: 220px;
+}
+.bTTB>span{
+    line-height: 40px;
+    color: #fff;
+    display: block;
+    font-size: 28px;
+    letter-spacing: 5px;
+}
+.bTSM{
+    position: absolute;
+    top: 170px;
+    width: 430px;
+    left: 150px;
+    height: 60px;
+}
+.bTSM>span{
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    opacity: 0.6;
+}
+/* @media screen and (min-width:1120px){
+    
+} */
+.banner {
+    /* width: 100%; */
+    width: 90%;
+    min-width: 1120px;
+    height: 360px;
+    margin: 0 auto;
+    /* background-color: palegoldenrod; */
+    position: relative;
+    /* top: 100px; */
+}
+/* @media screen and (min-width:960px) and (max-width:1120px){
+    .banner {
+        width: 90%;
+        min-width: 960px;
+        height: 360px;
+        margin: 0 auto;
+        position: relative;
+    }
+}
+@media screen and (max-width:960px){
+    .banner {
+        width: 100%;
+        height: 200px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .bTTB {
+        position: absolute;
+        top: 35px;
+        width: 430px;
+        left: 20px;
+        height: 220px;
+    }
+    .bTTB>span {
+        line-height: 32px;
+        color: #fff;
+        display: block;
+        font-size: 20px;
+        letter-spacing: 8px;
+    }
+    .bTSM {
+        position: absolute;
+        top: 135px;
+        width: 430px;
+        left: 20px;
+        height: 60px;
+    }
+    .bTSM>span {
+        color: #fff;
+        font-size: 13px;
+        letter-spacing: 1px;
+        opacity: 0.8;
+    }
+
+} */
