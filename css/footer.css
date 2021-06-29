@@ -3,6 +3,7 @@
     /* height: 200px; */
     background-color:#0C6095;
     overflow: hidden;
+    float: left;
 }
 .footer_con{
     width: 1120px;

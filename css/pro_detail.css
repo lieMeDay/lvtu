@@ -67,6 +67,11 @@ padding: 8px;
 .o_right img{
     width: 100%;
 }
+.txt_t_box{
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 30px;
+}
 .txt_t{
     overflow: hidden;
     position: relative;
@@ -74,18 +79,23 @@ padding: 8px;
     background-size: 50% 75%;
     padding-bottom: 30px;
 }
-.txt_t>p:nth-child(1){
+.txt_t>p:nth-child(1),
+.txt_t_box>p:nth-child(1){
     color: rgb(12, 96, 149);
     font-size: 22px;
     line-height: 36px;
     font-weight: 600;
 }
-.txt_t>p:nth-child(2){
+.txt_t>p:nth-child(2),
+.txt_t_box>p:nth-child(2){
     font-size: 18px;
     line-height: 30px;
     color: #666666;
     letter-spacing: 1px;
     width: 500px;
+}
+.txt_t_box>p:nth-child(2){
+    width: 100%;
 }
 .xh_pho{
     overflow: hidden;

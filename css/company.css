@@ -27,8 +27,11 @@
     /* height: auto; */
     margin: 20px auto;
     /* background-color: aqua; */
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 20px;
+    float: left;
+    transform: translate(-50%);
+    left: 50%;
     position: relative;
 }
 .con_img{

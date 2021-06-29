@@ -23,8 +23,12 @@
     width: 960px;
     margin: 20px auto;
     /* height: 300px; */
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 15px 0;
+    float: left;
+    transform: translate(-50%);
+    left: 50%;
+    position: relative;
 }
 .ser_con>div{
     width: 290px;

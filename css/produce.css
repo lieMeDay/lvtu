@@ -17,6 +17,7 @@
     margin-bottom: 20px;
     overflow: hidden;
     position: relative;
+    min-height: 200px;
     /* cursor: pointer; */
 }
 .pro_left{
